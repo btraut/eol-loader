@@ -1,13 +1,13 @@
 {
-  "name": "webpack-eol",
+  "name": "eol-loader",
   "version": "0.0.1",
-  "description": "Webpack loader to replace EOL characters with OS native.",
+  "description": "Webpack loader to replace EOL characters with OS native chars.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://git@github.com/btraut/webpack-eol.git"
+    "url": "git://git@github.com/btraut/eol-loader.git"
   },
-  "homepage": "https://github.com/btraut/webpack-eol",
+  "homepage": "https://github.com/btraut/eol-loader",
   "keywords": [
     "webpack",
     "webpackloader",
@@ -21,6 +21,6 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/btraut/webpack-eol/issues"
+    "url": "https://github.com/btraut/eol-loader/issues"
   }
 }
