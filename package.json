@@ -1,7 +1,7 @@
 {
   "name": "eol-loader",
-  "version": "0.0.1",
-  "description": "Webpack loader to replace EOL characters with OS native chars.",
+  "version": "1.0.0",
+  "description": "Webpack loader to replace all EOL chars with platform-appropriate version, and to add a EOL char at the end of files that lack one",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -11,7 +11,8 @@
   "keywords": [
     "webpack",
     "webpackloader",
-    "eol"
+    "eol",
+    "eof"
   ],
   "author": {
     "name": "Brent Traut",
