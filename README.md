@@ -20,4 +20,4 @@ In your webpack config:
 };
 ```
 
-For more information on how to configure loaders, visit (webpack's documentation)[https://webpack.github.io/docs/loaders.html].
+For more information on how to configure loaders, visit [webpack's documentation](https://webpack.github.io/docs/loaders.html).
