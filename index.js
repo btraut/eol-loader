@@ -3,16 +3,14 @@
 
 var EOL = require('os').EOL;
 
-function ChangeEOLCharLoader(content) {
+module.exports = function(content) {
     // Replace the newlines.
     content = content.replace(/\r?\n/g, EOL);
     
     // Add newline at the end of file.
-    if (new RegExp(eol + '$').test(content)) {
-        str += EOL;
+    if (new RegExp(EOL + '$').test(content)) {
+        content += EOL;
     }
     
     this.callback(null, content);
 }
-
-module.exports = ChangeEOLCharLoader;
