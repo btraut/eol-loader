@@ -1,7 +1,7 @@
-Webpack EOL
+eol-loader for Webpack
 ====================
 
-Simple [Webpack](http://webpack.github.io/) loader to to replace EOL characters with OS native.
+Simple [Webpack](http://webpack.github.io/) loader to replace all EOL characters with os.EOL, the platform-appropriate EOL character.
 
 ###Example:
 
@@ -11,7 +11,7 @@ In your webpack config:
 {
     module: {
         loaders: [
-            { loader: "webpack-eol" }
+            { loader: "eol-loader" }
         ]
     }
 };
