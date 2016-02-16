@@ -1,7 +1,7 @@
 {
   "name": "eol-loader",
   "version": "1.0.0",
-  "description": "Webpack loader to replace all EOL chars with platform-appropriate version, and to add a EOL char at the end of files that lack one",
+  "description": "webpack loader to replace all EOL chars with platform-appropriate version, and to add a EOL char at the end of files that lack one",
   "main": "index.js",
   "repository": {
     "type": "git",
