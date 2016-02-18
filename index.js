@@ -8,7 +8,7 @@ module.exports = function(content) {
     content = content.replace(/\r?\n/g, EOL);
     
     // Add newline at the end of file.
-    if (new RegExp(EOL + '$').test(content)) {
+    if (!new RegExp(EOL + '$').test(content)) {
         content += EOL;
     }
     
